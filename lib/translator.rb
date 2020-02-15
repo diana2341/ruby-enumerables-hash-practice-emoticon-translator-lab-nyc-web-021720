@@ -8,7 +8,7 @@ def load_library(file)
       #we used the YAML.load_file with an argument of file to load the file and we itterated through it 
     eng, jan = emoticon
      results["get_meaning"][jan] = meaning
-# here were going to be going inot the result hash and set the key "get_meaning" to point to the japanese emoticons(jan) then that points to meanings(ex:angel,angry,bored,(=meaning)
+# here were going to be going into the result hash and set the key "get_meaning" to point to the japanese emoticons(jan) then that points to meanings(ex:angel,angry,bored,(=meaning)
 #the outcome is the get_meaning:{☜(⌒▽⌒)☞:angel...etc.
      results["get_emoticon"][eng] = jan
    #  for this one we put the key "get_emoticon" to points to the value of a hash , in the hash we have the english emoticons as keys which points to the values of the japanese emoticons
