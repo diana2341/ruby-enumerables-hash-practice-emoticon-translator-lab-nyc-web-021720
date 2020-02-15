@@ -30,7 +30,8 @@ def get_english_meaning(file,emoticon)
    emoticons=load_library(file)["get_meaning"][emoticon]
 
   if emoticons
-   return emoticons #takes a Japanese emoticon and returns its meaning in English ex: 
+   return emoticons #takes a Japanese emoticon and returns its meaning in English ex: ☜ #(⌒▽⌒)☞ = angel
+
  else 
    "Sorry, that emoticon was not found"
 end
