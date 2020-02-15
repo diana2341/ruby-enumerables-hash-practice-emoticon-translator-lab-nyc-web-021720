@@ -20,9 +20,9 @@ end
 def get_japanese_emoticon(file,emoticon)
  emoticons=load_library(file)["get_emoticon"][emoticon]
  if emoticons
-   return emoticons
+   return emoticons #takes  :) and translate it to its Japanese version
  else 
-   "Sorry, that emoticon was not found"
+   "Sorry, that emoticon was not found" 
 end
 end
 
